@@ -1,0 +1,5 @@
+relationship 6f8a268d-7a96-8fa0-b86e-1d4b807587ff
+	crossFilteringBehavior: bothDirections
+	fromColumn: map.'Open date'
+	toColumn: date.Date
+

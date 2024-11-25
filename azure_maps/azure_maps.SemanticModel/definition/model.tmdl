@@ -1,0 +1,21 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.138.1004.0 (24.11)
+
+annotation PBI_QueryOrder = ["map"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table map
+ref table date
+
+ref cultureInfo en-IN
+

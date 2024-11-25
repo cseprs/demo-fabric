@@ -1,0 +1,22 @@
+table date
+	lineageTag: b802491b-5ce8-4dc6-be00-314d37867957
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: Long Date
+		lineageTag: f3d49d76-7f5b-45f9-8742-645a61779f38
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition date = calculated
+		mode: import
+		source = CALENDARAUTO()
+
+	annotation PBI_Id = 325291a9c4194361b7bcc7e1d7384d0c
+

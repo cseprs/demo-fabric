@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "azure_maps"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b128d848-dfb3-4123-9db8-c36c07a662b2"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.4.0/schema.json",
+  "name": "3e8678bf5be959753399",
+  "position": {
+    "x": 681,
+    "y": 397,
+    "z": 1001,
+    "height": 227,
+    "width": 599,
+    "tabOrder": 1001
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "map"
+                    }
+                  },
+                  "Property": "count of fuel stations"
+                }
+              },
+              "queryRef": "map.count of fuel stations",
+              "nativeQueryRef": "count of fuel stations"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "map"
+                  }
+                },
+                "Property": "count of fuel stations"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
